@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SUKUNAISHIMM</title>
+
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: black;
+      font-family: Arial, sans-serif;
+      overflow: hidden;
+    }
+
+    /* Neon glow background */
+    body::before {
+      content: "";
+      position: absolute;
+      width: 200%;
+      height: 200%;
+      background: linear-gradient(45deg, #00f0ff, #ff00ff, #00ff88, #ffea00);
+      animation: glow 6s linear infinite;
+      filter: blur(100px);
+      z-index: -1;
+    }
+
+    @keyframes glow {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    .box {
+      text-align: center;
+      color: #fff;
+      padding: 30px 40px;
+      border-radius: 15px;
+      background: rgba(0, 0, 0, 0.6);
+      box-shadow: 0 0 20px #00f0ff, 0 0 40px #ff00ff;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 28px;
+      text-shadow: 0 0 10px #00f0ff, 0 0 20px #ff00ff;
+    }
+
+    p {
+      margin-top: 10px;
+      font-size: 16px;
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box">
+    <h1>Redirecting to Sukuna's massive dihh...</h1>
+    <p>Wait egbon no rush me oooo... Abeg</p>
+  </div>
+
+  <script>
+    setTimeout(() => {
+      window.location.href = "https://tinyurl.com/22zml9zp";
+    }, 2000); // 2 seconds delay
+  </script>
+
+</body>
+</html>
